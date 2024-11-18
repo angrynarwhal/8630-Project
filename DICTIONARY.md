@@ -14,7 +14,7 @@ The structure of each of these files is identical (and this fact is repeated her
 
 ### network_sandbox_orgs.csv
 Each CNCF project has a single, primary repository. In most cases these primary repositories are one of many specific repositories within a GitHub organization intended to support that open source project. In the interests of maintaining coherence within those primary repositories, functions or features that relate to special use cases, platform specific deployments, and integrations across CNCF projects are usually contained within OTHER, DIFFERENT repositories that are part of the same organization. The resulting cohesiveness of the primary and secondary repositories are a software architecture property. There is a fluid overlap between primary and secondary repository contributors, so the interactions for all of the related respositories are included here. 
-Columns:
+#### Columns:
   1. cntrb_id - A algorithmically generated identifier for each contributor to a project. A contributor is a person. 
   2. repo_id - The integer identifier for a specific CNCF respository. (See Metadata section for `repo_info.csv` to get more information about the repositories)
   3. action - These are the 13 specific actions a contributor might perform against a repository. Each of these possible actions is also included in the metadata file `action_types.csv` so that we have a useful, controlled list and can discuss and filter each action type based on our specific questions. For example, some actions are directly related to software contributions. Other actions are related to contributions centered on understanding and explaining needed new features or bug lists, for example. 
