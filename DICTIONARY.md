@@ -1,6 +1,7 @@
 # Data Dictionary for the Files in data.zip 
 
-## network_sandbox_orgs.csv
+## Network Data
+### network_sandbox_orgs.csv
 Columns:
   1. cntrb_id
   2. repo_id
@@ -9,7 +10,26 @@ Columns:
   5. action_quarter
   6. counter
 
-## repo_info.csv
+### network_incubating_orgs.csv
+Columns:
+  1. cntrb_id
+  2. repo_id
+  3. action
+  4. action_year
+  5. action_quarter
+  6. counter
+
+### network_graduated_orgs.csv
+Columns:
+  1. cntrb_id
+  2. repo_id
+  3. action
+  4. action_year
+  5. action_quarter
+  6. counter
+
+## Metadata
+### repo_info.csv
 Columns:
   1. repo_id
   2. repo_group_id
@@ -37,24 +57,7 @@ Columns:
   1. repo_id
   2. category
 
-## network_graduated_orgs.csv
-Columns:
-  1. cntrb_id
-  2. repo_id
-  3. action
-  4. action_year
-  5. action_quarter
-  6. counter
-
 ## action_types.csv
 Columns:
   1. action
 
-## network_incubating_orgs.csv
-Columns:
-  1. cntrb_id
-  2. repo_id
-  3. action
-  4. action_year
-  5. action_quarter
-  6. counter
