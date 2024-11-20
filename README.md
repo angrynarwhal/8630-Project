@@ -11,3 +11,5 @@ Final Iterative Project for Graduate Data Visualization Class
 2. Your file should be saved in the root of this repository as a `data.zip`. This file is saved in the .gitignore, and will not be pushed back to your respository
 3. Run the `dictionary-builder.py` script: `python dictionary-builder.py`. This script will unzip `data.zip` and place all the extracted files into an `extracted_files` subdirectory. Like `data.zip` itself, the contents of this subdirectory, and any other .csv or .json files in this repository will be included in the `.gitignore` file and not pushed back to the GitHub repository. 
 
+## Updated Get Data
+
